@@ -1,0 +1,8 @@
+tr.header {
+	cursor: pointer;
+	display: table-row;
+}
+
+tr {
+	display: none;
+}

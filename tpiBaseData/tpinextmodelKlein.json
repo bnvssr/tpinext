@@ -1,0 +1,187 @@
+{
+  "keyareas": [
+    {
+      "keyarea": "KA01",
+      "name": "Stakeholder commitment",
+      "prio": "neutral",
+      "statement": "blabla01",
+      "levels": [
+        {
+          "level": "controlled",
+          "statement": "blabla01C",
+          "checkpoints": [{
+              "checkpoint": "01c1",
+              "text": "text01c1",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01c2",
+              "text": "text01c2",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "013",
+              "text": "text01c3",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01c4",
+              "text": "text01c4",
+              "value": "-",
+              "note": "-"
+            }
+          ]
+        },
+        {
+          "level": "efficient",
+          "statement": "blabla01E",
+          "checkpoints": [
+            {
+              "checkpoint": "01e1",
+              "text": "text01e1",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01e2",
+              "text": "text01e2",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01e3",
+              "text": "text01e3",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01e4",
+              "text": "text01e4",
+              "value": "-",
+              "note": "-"
+            }
+          ]
+        },
+        {
+          "level": "optimizing",
+          "statement": "blabla01O",
+          "checkpoints": [
+            {
+              "checkpoint": "01o1",
+              "text": "text01o1",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01o2",
+              "text": "text01o2",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "01o3",
+              "text": "text01o3",
+              "value": "-",
+              "note": "-"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "keyarea": "KA02",
+      "name": "Degree of involvement",
+      "prio": "neutral",
+      "statement": "blabla02",
+      "levels": [
+        {
+          "level": "controlled",
+          "statement": "blabla02C",
+          "checkpoints": [
+            {
+              "checkpoint": "02c1",
+              "text": "text02c1",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02c2",
+              "text": "text02c2",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02c3",
+              "text": "text02c3",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02c4",
+              "text": "text02c4",
+              "value": "-",
+              "note": "-"
+            }
+          ]
+        },
+        {
+          "level": "efficient",
+          "statement": "blabla02E",
+          "checkpoints": [
+            {
+              "checkpoint": "02e1",
+              "text": "text02e1",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02e2",
+              "text": "text02e2",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02e3",
+              "text": "text02e3",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02e4",
+              "text": "text02e4",
+              "value": "-",
+              "note": "-"
+            }
+          ]
+        },
+        {
+          "level": "optimizing",
+          "statement": "blabla02O",
+          "checkpoints": [
+            {
+              "checkpoint": "02o1",
+              "text": "text02o1",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02o2",
+              "text": "text02o2",
+              "value": "-",
+              "note": "-"
+            },
+            {
+              "checkpoint": "02o3",
+              "text": "text02o3",
+              "value": "-",
+              "note": "-"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

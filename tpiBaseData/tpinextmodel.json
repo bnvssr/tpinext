@@ -1,0 +1,1166 @@
+{
+	"keyareas": [{
+		"keyarea": "KA01",
+		"name": "Stakeholder commitment",
+		"prio": "neutral",
+		"statement": "Committed and proactive stakeholders create good conditions for efficient communication and cooperation.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Stakeholders commit to and support the test process by granting and delivering negotiated resources.",
+			"checkpoints": [{
+				"checkpoint": "01c1",
+				"text": "The principal stakeholder is defined (not necessarily documented) and known to the testers.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01c2",
+				"text": "Budget for test resources is granted by and negotiable with the principal stakeholder.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01c3",
+				"text": "Stakeholders actually deliver the committed resources.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01c4",
+				"text": "The principal stakeholder is responsible for a documented product risk analysis (the input for the test strategy).",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Stakeholders anticipate the implications of changes, thus enabling the test process to respond adequately.",
+			"checkpoints": [{
+				"checkpoint": "01e1",
+				"text": "All relevant stakeholder are defined (not necessarily documented) and known to the testers.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01e2",
+				"text": "Stakeholders actively acquire information on the quality of both the test process and the test object.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01e3",
+				"text": "The stakeholders proactively take action on aspects that affect the test process. This includes changes in the delivery sequence of the test object and changes in the project scope.",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Stakeholders recognize and stimulate process improvement as a shared responsibility",
+			"checkpoints": [{
+				"checkpoint": "01o1",
+				"text": "Line management acknowledges that test process improvement comes with the need for increased learning time for which resources are provided.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01o2",
+				"text": "Stakeholders are willing to adapt their way of working to suit the test process. This includes the software development and requirements management.",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "01o3",
+				"text": "An adapted way of working by the stakeholder to suit demands of the test process is jointly evaluated by the test organization and the stakeholder.",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA02",
+		"name": "Degree of involvement",
+		"prio": "neutral",
+		"statement": "Tight involvement of testing in the project helps to improve the product quality from the beginning, and helps to keep test activities off the project’s critical path.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Test activities are started up early to enable systematic preparations.",
+			"checkpoints": [{
+				"checkpoint": "02c1",
+				"text": "text02c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02c2",
+				"text": "text02c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02c3",
+				"text": "text02c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02c4",
+				"text": "text02c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The involvement of testing enables reliable test process output and prevention of defects.",
+			"checkpoints": [{
+				"checkpoint": "02e1",
+				"text": "text02e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02e2",
+				"text": "text02e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02e3",
+				"text": "text02e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02e4",
+				"text": "text02e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "The involvement of testing in the project makes it possible to optimize both the project and the test process.",
+			"checkpoints": [{
+				"checkpoint": "02o1",
+				"text": "text02o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02o2",
+				"text": "text02o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "02o3",
+				"text": "text02o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA03",
+		"name": "Test strategy",
+		"prio": "neutral",
+		"statement": "The test strategy guides the test process towards an optimal allocation of effort and resources.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "The test strategy enables the distribution of the test efforts and resources among the test levels and test activities.",
+			"checkpoints": [{
+				"checkpoint": "03c1",
+				"text": "text03c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03c2",
+				"text": "text03c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03c3",
+				"text": "text03c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03c4",
+				"text": "text03c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The test strategy is used to achieve the adequate balance between analyzed product risks, test coverage and available efforts and resources, involving all stakeholders.",
+			"checkpoints": [{
+				"checkpoint": "03e1",
+				"text": "text03e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03e2",
+				"text": "text03e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03e3",
+				"text": "text03e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03e4",
+				"text": "text03e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "The method of the test strategy is maintained well to ensure easy and valid application.",
+			"checkpoints": [{
+				"checkpoint": "03o1",
+				"text": "text03o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03o2",
+				"text": "text03o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "03o3",
+				"text": "text03o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA04",
+		"name": "Test organization",
+		"prio": "neutral",
+		"statement": "The test strategy guides the test process towards an optimal allocation of effort and resources. The test strategy enables the distribution of the test efforts and resources among the test levels and test activities.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "The test strategy is used to achieve the adequate balance between analyzed product risks, test coverage and available efforts and resources, involving all stakeholders.",
+			"checkpoints": [{
+				"checkpoint": "04c1",
+				"text": "text04c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04c2",
+				"text": "text04c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04c3",
+				"text": "text04c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04c4",
+				"text": "text04c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The test strategy is used to achieve the adequate balance between analyzed product risks, test coverage and available efforts and resources, involving all stakeholders.",
+			"checkpoints": [{
+				"checkpoint": "04e1",
+				"text": "text04e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04e2",
+				"text": "text04e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04e3",
+				"text": "text04e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04e4",
+				"text": "text04e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "The method of the test strategy is maintained well to ensure easy and valid application.",
+			"checkpoints": [{
+				"checkpoint": "04o1",
+				"text": "text04o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04o2",
+				"text": "text04o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "04o3",
+				"text": "text04o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA05",
+		"name": "Communication",
+		"prio": "neutral",
+		"statement": "Distinct communication ensures common understanding and alignment of expectations between all parties involved.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Communication of information to all involved makes it possible to take the appropriate decisions.",
+			"checkpoints": [{
+				"checkpoint": "05c1",
+				"text": "text05c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05c2",
+				"text": "text05c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05c3",
+				"text": "text05c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05c4",
+				"text": "text05c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Concise form and content of information for the target audience contributes to more productive work.",
+			"checkpoints": [{
+				"checkpoint": "05e1",
+				"text": "text05e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05e2",
+				"text": "text05e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05e3",
+				"text": "text05e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05e4",
+				"text": "text05e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Communication is a means for team building.",
+			"checkpoints": [{
+				"checkpoint": "05o1",
+				"text": "text05o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05o2",
+				"text": "text05o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "05o3",
+				"text": "text05o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA06",
+		"name": "Reporting",
+		"prio": "neutral",
+		"statement": "Reporting provides stakeholders with insight to support the decision making process and test project accounting.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "The test team and stakeholders agree on what is reported and how, thus preventing a lack of information or an information overload.",
+			"checkpoints": [{
+				"checkpoint": "06c1",
+				"text": "text06c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06c2",
+				"text": "text06c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06c3",
+				"text": "text06c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06c4",
+				"text": "text06c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Reporting is tuned to specific target groups to support the decision making process.",
+			"checkpoints": [{
+				"checkpoint": "06e1",
+				"text": "text06e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06e2",
+				"text": "text06e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06e3",
+				"text": "text06e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06e4",
+				"text": "text06e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Reporting provides information that can be used to optimize the software development lifecycle.",
+			"checkpoints": [{
+				"checkpoint": "06o1",
+				"text": "text06o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06o2",
+				"text": "text06o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "06o3",
+				"text": "text06o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA07",
+		"name": "Test process management",
+		"prio": "neutral",
+		"statement": "Managing the test process maximizes the execution of the test assignment within the required time, costs, and results.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Proactive management of the test process enables the fulfillment of the test assignment.",
+			"checkpoints": [{
+				"checkpoint": "07c1",
+				"text": "text07c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07c2",
+				"text": "text07c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07c3",
+				"text": "text07c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07c4",
+				"text": "text07c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Managing the test process with clear authorizations makes instant adjustments possible to keep the test project on track.",
+			"checkpoints": [{
+				"checkpoint": "07e1",
+				"text": "text07e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07e2",
+				"text": "text07e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07e3",
+				"text": "text07e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07e4",
+				"text": "text07e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Lessons learned on test process management advance the effectiveness and efficiency of steering test projects to their required end result.",
+			"checkpoints": [{
+				"checkpoint": "07o1",
+				"text": "text07o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07o2",
+				"text": "text07o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "07o3",
+				"text": "text07o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA08",
+		"name": "Estimating and planning",
+		"prio": "neutral",
+		"statement": "The proper use of appropriate estimating and planning techniques makes the test process planning and estimating predictable and reliable.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "The amount of resources per activity required is predicted.",
+			"checkpoints": [{
+				"checkpoint": "08c1",
+				"text": "text08c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08c2",
+				"text": "text08c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08c3",
+				"text": "text08c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08c4",
+				"text": "text08c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Formal techniques make estimating and planning reliable.",
+			"checkpoints": [{
+				"checkpoint": "08e1",
+				"text": "text08e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08e2",
+				"text": "text08e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08e3",
+				"text": "text08e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08e4",
+				"text": "text08e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Estimating is based on experience data from the organization.",
+			"checkpoints": [{
+				"checkpoint": "08o1",
+				"text": "text08o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08o2",
+				"text": "text08o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "08o3",
+				"text": "text08o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA09",
+		"name": "Metrics",
+		"prio": "neutral",
+		"statement": "Metrics provide objectivity by quantifying observations.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "With the defined metrics it is possible to estimate and monitor the test process.",
+			"checkpoints": [{
+				"checkpoint": "09c1",
+				"text": "text09c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09c2",
+				"text": "text09c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09c3",
+				"text": "text09c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09c4",
+				"text": "text09c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The provided objectivity through metrics outweighs the effort of collecting and analyzing the measurement data.",
+			"checkpoints": [{
+				"checkpoint": "09e1",
+				"text": "text09e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09e2",
+				"text": "text09e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09e3",
+				"text": "text09e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09e4",
+				"text": "text09e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Metrics meet the ever changing information need.",
+			"checkpoints": [{
+				"checkpoint": "09o1",
+				"text": "text09o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09o2",
+				"text": "text09o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "09o3",
+				"text": "text09o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA10",
+		"name": "Defect management",
+		"prio": "neutral",
+		"statement": "Defect management treats defects both at an individual level and at a group level where root causes are analyzed and guidelines are available.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Defects are tracked at an individual level and defect status is monitored.",
+			"checkpoints": [{
+				"checkpoint": "10c1",
+				"text": "text10c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10c2",
+				"text": "text10c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10c3",
+				"text": "text10c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10c4",
+				"text": "text10c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Common aspects of defects are analyzed to find similar defects.",
+			"checkpoints": [{
+				"checkpoint": "10e1",
+				"text": "text10e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10e2",
+				"text": "text10e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10e3",
+				"text": "text10e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10e4",
+				"text": "text10e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Defects are analyzed for common properties to avoid future defects.",
+			"checkpoints": [{
+				"checkpoint": "10o1",
+				"text": "text10o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10o2",
+				"text": "text10o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "10o3",
+				"text": "text10o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA11",
+		"name": "testware management",
+		"prio": "neutral",
+		"statement": "Testware managememnt ensures coherence between test artifacts, and between test artifacts and their related design documents.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "All used test and design documents in an approved state, are individually identified and registered.",
+			"checkpoints": [{
+				"checkpoint": "11c1",
+				"text": "text11c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11c2",
+				"text": "text11c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11c3",
+				"text": "text11c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11c4",
+				"text": "text11c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The relations between all (test) artifacts are known and kept up to date.",
+			"checkpoints": [{
+				"checkpoint": "11e1",
+				"text": "text11e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11e2",
+				"text": "text11e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11e3",
+				"text": "text11e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11e4",
+				"text": "text11e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Testware is made available for reuse in furture test projects and actually reused.",
+			"checkpoints": [{
+				"checkpoint": "11o1",
+				"text": "text11o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11o2",
+				"text": "text11o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "11o3",
+				"text": "text11o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA12",
+		"name": "Methodology practice",
+		"prio": "neutral",
+		"statement": "A described method for testing directs and supports the test projects.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "A described test method enables predictable execution of test activities.",
+			"checkpoints": [{
+				"checkpoint": "12c1",
+				"text": "text12c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12c2",
+				"text": "text12c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12c3",
+				"text": "text12c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12c4",
+				"text": "text12c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The described test method provides practical support for the test projects.",
+			"checkpoints": [{
+				"checkpoint": "12e1",
+				"text": "text12e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12e2",
+				"text": "text12e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12e3",
+				"text": "text12e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12e4",
+				"text": "text12e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Deviations from the test method are evaluated and lead to enhancing the method.",
+			"checkpoints": [{
+				"checkpoint": "12o1",
+				"text": "text12o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12o2",
+				"text": "text12o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "12o3",
+				"text": "text12o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA13",
+		"name": "Tester professionalism",
+		"prio": "neutral",
+		"statement": "Tester professionalism includes the right mix of the various skills, competences, disciplines, functions and knowledge that are necessary to perform test activities to the levels expected.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "With specific test method skills and competences the tester makes the test process more predictable and manageable.",
+			"checkpoints": [{
+				"checkpoint": "13c1",
+				"text": "text13c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13c2",
+				"text": "text13c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13c3",
+				"text": "text13c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13c4",
+				"text": "text13c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Test personnel have a dedicated role or function for testing and they fulfill their task in line with expectations.",
+			"checkpoints": [{
+				"checkpoint": "13e1",
+				"text": "text13e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13e2",
+				"text": "text13e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13e3",
+				"text": "text13e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13e4",
+				"text": "text13e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Test personnel act from a Quality Assurance point of view thus constantly developing and improving their skills.",
+			"checkpoints": [{
+				"checkpoint": "13o1",
+				"text": "text13o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13o2",
+				"text": "text13o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "13o3",
+				"text": "text13o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA14",
+		"name": "Test case design",
+		"prio": "neutral",
+		"statement": "Test case design directs test execution to search for defects according to the test strategy.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "The test cases make the test execution repeatable and person independent.",
+			"checkpoints": [{
+				"checkpoint": "14c1",
+				"text": "text14c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14c2",
+				"text": "text14c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14c3",
+				"text": "text14c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14c4",
+				"text": "text14c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Designing test cases that focus on achieving a specific coverage provides a justified elaboration of the test strategy.",
+			"checkpoints": [{
+				"checkpoint": "14e1",
+				"text": "text14e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14e2",
+				"text": "text14e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14e3",
+				"text": "text14e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14e4",
+				"text": "text14e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Evaluation of test cases, test design techniques and defects provides a way to increase test effectiveness.",
+			"checkpoints": [{
+				"checkpoint": "14o1",
+				"text": "text14o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14o2",
+				"text": "text14o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "14o3",
+				"text": "text14o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA15",
+		"name": "Test tools",
+		"prio": "neutral",
+		"statement": "Test tools enable or accelerate specific test activities.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Test tools needed to execute specific test activities are available and used.",
+			"checkpoints": [{
+				"checkpoint": "15c1",
+				"text": "text15c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15c2",
+				"text": "text15c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15c3",
+				"text": "text15c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15c4",
+				"text": "text15c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "Test tools are used to accelerate specific test activities.",
+			"checkpoints": [{
+				"checkpoint": "15e1",
+				"text": "text15e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15e2",
+				"text": "text15e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15e3",
+				"text": "text15e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15e4",
+				"text": "text15e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Test tools, and their use, are continuously evaluated and improved.",
+			"checkpoints": [{
+				"checkpoint": "15o1",
+				"text": "text15o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15o2",
+				"text": "text15o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "15o3",
+				"text": "text15o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}, {
+		"keyarea": "KA16",
+		"name": "Test environment",
+		"prio": "neutral",
+		"statement": "The test environment is explicitly designed, implemented and maintained with the goals of the test level in mind.",
+		"levels": [{
+			"level": "controlled",
+			"statement": "Changes to the test environment do not happen unexpectedly.",
+			"checkpoints": [{
+				"checkpoint": "16c1",
+				"text": "text16c1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16c2",
+				"text": "text16c2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16c3",
+				"text": "text16c3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16c4",
+				"text": "text16c4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "efficient",
+			"statement": "The test environment is directly related to the demands of the test level or test type at hand.",
+			"checkpoints": [{
+				"checkpoint": "16e1",
+				"text": "text16e1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16e2",
+				"text": "text16e2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16e3",
+				"text": "text16e3",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16e4",
+				"text": "text16e4",
+				"value": "-",
+				"note": "-"
+			}]
+		}, {
+			"level": "optimizing",
+			"statement": "Test environments are offered as a service to testers.",
+			"checkpoints": [{
+				"checkpoint": "16o1",
+				"text": "text16o1",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16o2",
+				"text": "text16o2",
+				"value": "-",
+				"note": "-"
+			}, {
+				"checkpoint": "16o3",
+				"text": "text16o3",
+				"value": "-",
+				"note": "-"
+			}]
+		}]
+	}]
+}

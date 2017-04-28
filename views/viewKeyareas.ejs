@@ -1,0 +1,67 @@
+<html>
+
+<head>
+  <link href='/assets/style.css' type='text/css' rel='stylesheet' />
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+  <script>
+    function showKeyarea() {
+      $.getJSON('http://localhost:3000/tpijson', function(tpi) {
+        var keyarea = $.grep(tpi.keyareas, function(ka, index) {
+          return ka.keyarea == $('#keyarea').val();
+        });
+
+        // table
+        $('#show').html('<table><thead></thead><tbody></tbody></table>');
+
+        // row with key area name
+        $('tbody').append("<tr class='header'><td colspan='4'><div class='keyarea'><span>+</span>" + keyarea[0].name + "</div></td></tr>");
+
+        // row with keyarea statement
+        $('tbody').append("<tr class='statement'><td colspan='4'>" + keyarea[0].statement + "</td></tr>");
+
+        keyarea[0].levels.forEach(function(level) {
+          // row level 
+          $('tbody').append("<tr><td></td><td colspan = '3'>" + level.level + "</td></tr>");
+
+          // row level statement
+          $('tbody').append("<tr><td></td><td colspan = '3'>" + level.statement + "</td></tr>");
+
+          level.checkpoints.forEach(function(checkpoint) {
+            // row checkpoint
+            $('tbody').append("<tr><td>" + checkpoint.checkpoint + "</td><td>" + checkpoint.text + "</td><td>" + checkpoint.value + "</td><td>" + checkpoint.note + "</td></tr>");
+          });
+        });
+      });
+    }
+
+  </script>
+</head>
+
+<body>
+  <h1>TPI NEXT</h1>
+  <h2>Checkpoints by Keyarea</h2>
+  <p>Keyarea:
+    <select id='keyarea' onChange="showKeyarea()">
+		<option value='KA01'>Stakeholder commitment</option>
+		<option value='KA02'>Degree of involvement</option>
+		<option value='KA03'>Test strategy</option>
+		<option value='KA04'>Test organization</option>
+		<option value='KA05'>Communbication</option>
+		<option value='KA06'>Reporting</option>
+		<option value='KA07'>Test process management</option>
+		<option value='KA08'>Estimating and planning</option>
+		<option value='KA09'>Metrics</option>
+		<option value='KA10'>Defect management</option>
+		<option value='KA11'>Testwaremanagement</option>
+		<option value='KA12'>Methodology practice</option>
+		<option value='KA13'>Tester professionalism</option>
+		<option value='KA14'>Test case design</option>
+		<option value='KA15'>Test tools</option>
+		<option value='KA16'>Test environment</option>
+		</select>
+  </p>
+  <div id='show'></div>
+</body>
+
+</html>

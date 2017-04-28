@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <title>TPI NEXT</title>
+  <link href='/assets/style.css' type='text/css' rel='stylesheet' />
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+</head>
+
+<body>
+  <h1>TPI NEXT</h1>
+  <h2>All checkpoints</h2>
+  <table>
+    <thead>
+    </thead>
+    <% tpi.keyareas.forEach(function (keyarea) { %>
+      <tbody id=<%=keyarea.keyarea %> >
+        <tr class='header'>
+          <td colspan='4'>
+            <div class='keyarea'>
+              <span>+</span>
+              <%=	keyarea.name %>
+
+            </div>
+          </td>
+        </tr>
+        <tr class='row'>
+          <td class='statement' colspan='4'>
+            <%=keyarea.statement %>
+          </td>
+        </tr>
+        <% keyarea.levels.forEach(function (level) { %>
+          <tr class='row '>
+            <td colspan='4 '>
+              <%= level.level %>
+                <div class='statement '>
+                  <%= level.statement %>
+                </div>
+            </td>
+          </tr>
+
+          <% level.checkpoints.forEach(function(checkpoint) { %>
+            <tr class='row '>
+              <td width='7%'>
+                <%=checkpoint.checkpoint %>
+              </td>
+              <td width='45%'>
+                <%=checkpoint.text %>
+              </td>
+              <td width='10%'>
+
+                <input list="values" name="values" size='2 '>
+                <datalist id="values">
+  <option value="Yes">
+  <option value="No">
+  <option value="N/A">
+</datalist>
+              </td>
+              <td><textarea id=<%checkpoint.checkpoint + 'note ' %>><%=checkpoint.note %></textarea>
+
+              </td>
+            </tr>
+            <% }) %>
+
+              <% }); %>
+      </tbody>
+      <% }); %>
+  </table>
+</body>
+
+<script>
+  var $headers = $('.header ').click(function() {
+    $(this).find('span ').text(function(_, value) {
+      return value == '- ' ? '+ ' : '- '
+    });
+    console.log($(this));
+    $(this).nextUntil('tr.header ').slideToggle(100, function() {});
+  });
+
+</script>
+
+</html>
